@@ -1,0 +1,15 @@
+Nome tabella: auto
+
+id PRIMARY_KEY - AUTO_INCREMENT - UNIQUE
+modello - stringa - VARCHAR(25) - NOTNULL 
+marca - stringa - VARCHAR(25) - NOTNULL
+anno - data - YEAR
+km percorsi - 
+revisionata - bool TINYINT 
+prezzo vendita - float - FLOAT(8,2) // 999999,99
+proprietari - intero 
+colore esterno - stringa - 
+alimentazione
+classe emissioni -
+cilindrata - nume
+foto - stringa TEXT DEFAULT("")
