@@ -4,12 +4,12 @@ id PRIMARY_KEY - AUTO_INCREMENT - UNIQUE
 modello - stringa - VARCHAR(25) - NOTNULL 
 marca - stringa - VARCHAR(25) - NOTNULL
 anno - data - YEAR
-km percorsi - 
+km percorsi - intero - INT 
 revisionata - bool TINYINT 
-prezzo vendita - float - FLOAT(8,2) // 999999,99
-proprietari - intero 
-colore esterno - stringa - 
+prezzo vendita - float - DOUBLE(8,2) // 999999,99
+proprietari - intero - TINYINT - NULL
+colore esterno - stringa - VARCHAR(10) 
 alimentazione - stinga - VARCHAR(10)
-classe emissioni - stringa - 
-cilindrata - nume
+classe emissioni - stringa - VARCHAR(5) - NULL
+cilindrata - intero - SMALL 
 foto - stringa TEXT DEFAULT("")
